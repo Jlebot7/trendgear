@@ -11,6 +11,11 @@
    Mientras no la configures, el dashboard usa automaticamente
    el dataset local en data/trendgear_full_dataset.json
    ----------------------------------------------------------- */
+// Nota sobre el JSON: Firebase prohibe las claves con . $ # [ ] /  por eso el
+// dataset usa el campo "Amount Spent COP" (sin "$") en vez de "Amount Spent ($)".
+// Hay 2 archivos listos para importar segun donde lo hagas en la consola:
+//   - data/trendgear_full_dataset.json   -> importar en la RAIZ de la base (crea /customers)
+//   - data/trendgear_customers_only.json -> importar DIRECTO dentro del nodo /customers
 const CONFIG = {
   FIREBASE_URL: "https://REEMPLAZA-CON-TU-PROYECTO-default-rtdb.firebaseio.com/customers.json",
   LOCAL_FALLBACK_URL: "data/trendgear_full_dataset.json",
@@ -114,7 +119,7 @@ function renderTable(rows) {
         <td data-label="Email">${c["Email"]}</td>
         <td data-label="Producto">${c["Product Purchased"]}</td>
         <td class="date" data-label="Fecha compra">${c["Purchase Date"]}</td>
-        <td class="amount" data-label="Monto">${money.format(Number(c["Amount Spent ($)"]))}</td>
+        <td class="amount" data-label="Monto">${money.format(Number(c["Amount Spent COP"]))}</td>
         <td data-label="Edad">${c["Age"]}</td>
         <td data-label="Ciudad">${c["City"]}</td>
         <td data-label="Pago">${c["Payment Method"]}</td>
@@ -130,7 +135,7 @@ function renderTable(rows) {
    3. KPIs con animacion de conteo (elemento distintivo del hero)
    ----------------------------------------------------------- */
 function renderKPIs(rows) {
-  const totalRevenue = rows.reduce((sum, c) => sum + Number(c["Amount Spent ($)"]), 0);
+  const totalRevenue = rows.reduce((sum, c) => sum + Number(c["Amount Spent COP"]), 0);
   const totalCustomers = rows.length;
   const avgTicket = totalCustomers ? totalRevenue / totalCustomers : 0;
   const topTierPct = totalCustomers

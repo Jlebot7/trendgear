@@ -6,12 +6,12 @@
       "Email": "camila.restrepo@example.com",
       "Product Purchased": "Wireless Mouse",
       "Purchase Date": "2025-11-02",
-      "Amount Spent ($)": 89000,
       "Age": 27,
       "City": "Bogotá, D.C.",
       "Payment Method": "Credit Card",
       "Last Login Date": "2025-11-10",
-      "Membership Status": "Gold"
+      "Membership Status": "Gold",
+      "Amount Spent COP": 89000
     },
     "TG_1002": {
       "Customer ID": "TG-1002",
@@ -19,12 +19,12 @@
       "Email": "julian.gomez@example.com",
       "Product Purchased": "Mechanical Keyboard",
       "Purchase Date": "2025-11-05",
-      "Amount Spent ($)": 245000,
       "Age": 34,
       "City": "Medellín",
       "Payment Method": "Credit Card",
       "Last Login Date": "2025-11-09",
-      "Membership Status": "Silver"
+      "Membership Status": "Silver",
+      "Amount Spent COP": 245000
     },
     "TG_1003": {
       "Customer ID": "TG-1003",
@@ -32,12 +32,12 @@
       "Email": "valentina.rios@example.com",
       "Product Purchased": "Smartwatch Pro",
       "Purchase Date": "2025-11-25",
-      "Amount Spent ($)": 780000,
       "Age": 19,
       "City": "Cali",
       "Payment Method": "PayPal",
       "Last Login Date": "2025-11-28",
-      "Membership Status": "Bronze"
+      "Membership Status": "Bronze",
+      "Amount Spent COP": 780000
     },
     "TG_1004": {
       "Customer ID": "TG-1004",
@@ -45,12 +45,12 @@
       "Email": "andres.torres@example.com",
       "Product Purchased": "Noise Cancelling Headphones",
       "Purchase Date": "2025-10-15",
-      "Amount Spent ($)": 560000,
       "Age": 58,
       "City": "Barranquilla",
       "Payment Method": "Debit Card",
       "Last Login Date": "2025-10-20",
-      "Membership Status": "Platinum"
+      "Membership Status": "Platinum",
+      "Amount Spent COP": 560000
     },
     "TG_1005": {
       "Customer ID": "TG-1005",
@@ -58,12 +58,12 @@
       "Email": "mariana.duarte@example.com",
       "Product Purchased": "USB-C Hub",
       "Purchase Date": "2025-11-20",
-      "Amount Spent ($)": 95000,
       "Age": 22,
       "City": "Cartagena, Bolívar",
       "Payment Method": "Bank Transfer",
       "Last Login Date": "2025-11-25",
-      "Membership Status": "Silver"
+      "Membership Status": "Silver",
+      "Amount Spent COP": 95000
     },
     "TG_1006": {
       "Customer ID": "TG-1006",
@@ -71,12 +71,12 @@
       "Email": "santiago.lopez@example.com",
       "Product Purchased": "4K Monitor 27\"",
       "Purchase Date": "2025-11-18",
-      "Amount Spent ($)": 1250000,
       "Age": 41,
       "City": "Bucaramanga",
       "Payment Method": "Credit Card",
       "Last Login Date": "2025-11-22",
-      "Membership Status": "Gold"
+      "Membership Status": "Gold",
+      "Amount Spent COP": 1250000
     },
     "TG_1007": {
       "Customer ID": "TG-1007",
@@ -84,12 +84,12 @@
       "Email": "isabella.duarte@example.com",
       "Product Purchased": "Laptop Ultra 14",
       "Purchase Date": "2025-09-10",
-      "Amount Spent ($)": 3003000,
       "Age": 24,
       "City": "Bucaramanga",
       "Payment Method": "Cash",
       "Last Login Date": "2025-11-17",
-      "Membership Status": "Bronze"
+      "Membership Status": "Bronze",
+      "Amount Spent COP": 3003000
     },
     "TG_1008": {
       "Customer ID": "TG-1008",
@@ -97,12 +97,12 @@
       "Email": "emilio.salazar@example.com",
       "Product Purchased": "Smartwatch Pro",
       "Purchase Date": "2025-09-12",
-      "Amount Spent ($)": 470000,
       "Age": 44,
       "City": "Medellin",
       "Payment Method": "Debit Card",
       "Last Login Date": "2025-11-06",
-      "Membership Status": "Bronze"
+      "Membership Status": "Bronze",
+      "Amount Spent COP": 470000
     },
     "TG_1009": {
       "Customer ID": "TG-1009",
@@ -110,12 +110,12 @@
       "Email": "juan.cardenas@example.com",
       "Product Purchased": "Wireless Mouse",
       "Purchase Date": "2025-09-16",
-      "Amount Spent ($)": 119000,
       "Age": 58,
       "City": "Cucuta",
       "Payment Method": "Credit Card",
       "Last Login Date": "2025-10-14",
-      "Membership Status": "Platinum"
+      "Membership Status": "Platinum",
+      "Amount Spent COP": 119000
     },
     "TG_1010": {
       "Customer ID": "TG-1010",
@@ -123,12 +123,12 @@
       "Email": "julian.castro@example.com",
       "Product Purchased": "Wireless Mouse",
       "Purchase Date": "2025-09-18",
-      "Amount Spent ($)": 118000,
       "Age": 44,
       "City": "Cali",
       "Payment Method": "Cash",
       "Last Login Date": "2025-10-25",
-      "Membership Status": "Bronze"
+      "Membership Status": "Bronze",
+      "Amount Spent COP": 118000
     },
     "TG_1011": {
       "Customer ID": "TG-1011",
@@ -136,12 +136,12 @@
       "Email": "natalia.vargas@example.com",
       "Product Purchased": "External SSD 1TB",
       "Purchase Date": "2025-09-24",
-      "Amount Spent ($)": 459000,
       "Age": 55,
       "City": "Cucuta",
       "Payment Method": "Debit Card",
       "Last Login Date": "2025-10-07",
-      "Membership Status": "Gold"
+      "Membership Status": "Gold",
+      "Amount Spent COP": 459000
     },
     "TG_1012": {
       "Customer ID": "TG-1012",
@@ -149,12 +149,12 @@
       "Email": "andres.quintero@example.com",
       "Product Purchased": "Fast Charger 65W",
       "Purchase Date": "2025-11-12",
-      "Amount Spent ($)": 59000,
       "Age": 57,
       "City": "Barranquilla",
       "Payment Method": "Bank Transfer",
       "Last Login Date": "2025-11-15",
-      "Membership Status": "Platinum"
+      "Membership Status": "Platinum",
+      "Amount Spent COP": 59000
     },
     "TG_1013": {
       "Customer ID": "TG-1013",
@@ -162,12 +162,12 @@
       "Email": "gabriela.rojas@example.com",
       "Product Purchased": "Bluetooth Speaker",
       "Purchase Date": "2025-10-29",
-      "Amount Spent ($)": 244000,
       "Age": 37,
       "City": "Barranquilla",
       "Payment Method": "Debit Card",
       "Last Login Date": "2025-11-21",
-      "Membership Status": "Silver"
+      "Membership Status": "Silver",
+      "Amount Spent COP": 244000
     },
     "TG_1014": {
       "Customer ID": "TG-1014",
@@ -175,12 +175,12 @@
       "Email": "valentina.zapata@example.com",
       "Product Purchased": "Noise Cancelling Headphones",
       "Purchase Date": "2025-11-03",
-      "Amount Spent ($)": 655000,
       "Age": 64,
       "City": "Manizales",
       "Payment Method": "PayPal",
       "Last Login Date": "2025-11-24",
-      "Membership Status": "Bronze"
+      "Membership Status": "Bronze",
+      "Amount Spent COP": 655000
     },
     "TG_1015": {
       "Customer ID": "TG-1015",
@@ -188,12 +188,12 @@
       "Email": "andres.salazar@example.com",
       "Product Purchased": "Laptop Ultra 14",
       "Purchase Date": "2025-12-06",
-      "Amount Spent ($)": 3492000,
       "Age": 27,
       "City": "Manizales",
       "Payment Method": "Bank Transfer",
       "Last Login Date": "2025-12-11",
-      "Membership Status": "Bronze"
+      "Membership Status": "Bronze",
+      "Amount Spent COP": 3492000
     },
     "TG_1016": {
       "Customer ID": "TG-1016",
@@ -201,12 +201,12 @@
       "Email": "ricardo.rios@example.com",
       "Product Purchased": "External SSD 1TB",
       "Purchase Date": "2025-12-11",
-      "Amount Spent ($)": 430000,
       "Age": 39,
       "City": "Bucaramanga",
       "Payment Method": "Cash",
       "Last Login Date": "2025-12-13",
-      "Membership Status": "Platinum"
+      "Membership Status": "Platinum",
+      "Amount Spent COP": 430000
     },
     "TG_1017": {
       "Customer ID": "TG-1017",
@@ -214,12 +214,12 @@
       "Email": "natalia.beltran@example.com",
       "Product Purchased": "Mechanical Keyboard",
       "Purchase Date": "2025-10-05",
-      "Amount Spent ($)": 175000,
       "Age": 62,
       "City": "Medellin",
       "Payment Method": "Credit Card",
       "Last Login Date": "2025-12-04",
-      "Membership Status": "Gold"
+      "Membership Status": "Gold",
+      "Amount Spent COP": 175000
     },
     "TG_1018": {
       "Customer ID": "TG-1018",
@@ -227,12 +227,12 @@
       "Email": "carolina.zapata@example.com",
       "Product Purchased": "Tablet 10 inch",
       "Purchase Date": "2025-10-28",
-      "Amount Spent ($)": 1762000,
       "Age": 63,
       "City": "Pereira",
       "Payment Method": "PayPal",
       "Last Login Date": "2025-11-15",
-      "Membership Status": "Bronze"
+      "Membership Status": "Bronze",
+      "Amount Spent COP": 1762000
     },
     "TG_1019": {
       "Customer ID": "TG-1019",
@@ -240,12 +240,12 @@
       "Email": "alejandra.mora@example.com",
       "Product Purchased": "4K Monitor 27\"",
       "Purchase Date": "2025-09-15",
-      "Amount Spent ($)": 1541000,
       "Age": 21,
       "City": "Barranquilla",
       "Payment Method": "PayPal",
       "Last Login Date": "2025-11-17",
-      "Membership Status": "Silver"
+      "Membership Status": "Silver",
+      "Amount Spent COP": 1541000
     },
     "TG_1020": {
       "Customer ID": "TG-1020",
@@ -253,12 +253,12 @@
       "Email": "esteban.castro@example.com",
       "Product Purchased": "Laptop Ultra 14",
       "Purchase Date": "2025-11-03",
-      "Amount Spent ($)": 4440000,
       "Age": 28,
       "City": "Manizales",
       "Payment Method": "Bank Transfer",
       "Last Login Date": "2025-11-08",
-      "Membership Status": "Gold"
+      "Membership Status": "Gold",
+      "Amount Spent COP": 4440000
     },
     "TG_1021": {
       "Customer ID": "TG-1021",
@@ -266,12 +266,12 @@
       "Email": "antonia.duarte@example.com",
       "Product Purchased": "Laptop Ultra 14",
       "Purchase Date": "2025-10-06",
-      "Amount Spent ($)": 5108000,
       "Age": 40,
       "City": "Pereira",
       "Payment Method": "Debit Card",
       "Last Login Date": "2025-11-28",
-      "Membership Status": "Silver"
+      "Membership Status": "Silver",
+      "Amount Spent COP": 5108000
     },
     "TG_1022": {
       "Customer ID": "TG-1022",
@@ -279,12 +279,12 @@
       "Email": "valentina.lopez@example.com",
       "Product Purchased": "4K Monitor 27\"",
       "Purchase Date": "2025-11-24",
-      "Amount Spent ($)": 1143000,
       "Age": 18,
       "City": "Manizales",
       "Payment Method": "Cash",
       "Last Login Date": "2025-12-01",
-      "Membership Status": "Silver"
+      "Membership Status": "Silver",
+      "Amount Spent COP": 1143000
     },
     "TG_1023": {
       "Customer ID": "TG-1023",
@@ -292,12 +292,12 @@
       "Email": "daniela.vargas@example.com",
       "Product Purchased": "Wireless Mouse",
       "Purchase Date": "2025-10-24",
-      "Amount Spent ($)": 64000,
       "Age": 41,
       "City": "Cucuta",
       "Payment Method": "Cash",
       "Last Login Date": "2025-11-27",
-      "Membership Status": "Gold"
+      "Membership Status": "Gold",
+      "Amount Spent COP": 64000
     },
     "TG_1024": {
       "Customer ID": "TG-1024",
@@ -305,12 +305,12 @@
       "Email": "mariana.salazar@example.com",
       "Product Purchased": "Webcam HD",
       "Purchase Date": "2025-10-29",
-      "Amount Spent ($)": 124000,
       "Age": 53,
       "City": "Pereira",
       "Payment Method": "Bank Transfer",
       "Last Login Date": "2025-12-11",
-      "Membership Status": "Platinum"
+      "Membership Status": "Platinum",
+      "Amount Spent COP": 124000
     },
     "TG_1025": {
       "Customer ID": "TG-1025",
@@ -318,12 +318,12 @@
       "Email": "sofia.torres@example.com",
       "Product Purchased": "Bluetooth Speaker",
       "Purchase Date": "2025-09-08",
-      "Amount Spent ($)": 195000,
       "Age": 22,
       "City": "Barranquilla",
       "Payment Method": "Bank Transfer",
       "Last Login Date": "2025-10-02",
-      "Membership Status": "Silver"
+      "Membership Status": "Silver",
+      "Amount Spent COP": 195000
     },
     "TG_1026": {
       "Customer ID": "TG-1026",
@@ -331,12 +331,12 @@
       "Email": "andres.rojas@example.com",
       "Product Purchased": "Webcam HD",
       "Purchase Date": "2025-09-14",
-      "Amount Spent ($)": 124000,
       "Age": 54,
       "City": "Cali",
       "Payment Method": "Cash",
       "Last Login Date": "2025-09-14",
-      "Membership Status": "Bronze"
+      "Membership Status": "Bronze",
+      "Amount Spent COP": 124000
     },
     "TG_1027": {
       "Customer ID": "TG-1027",
@@ -344,12 +344,12 @@
       "Email": "nicolas.cifuentes@example.com",
       "Product Purchased": "Wireless Mouse",
       "Purchase Date": "2025-09-27",
-      "Amount Spent ($)": 54000,
       "Age": 42,
       "City": "Cali",
       "Payment Method": "PayPal",
       "Last Login Date": "2025-12-14",
-      "Membership Status": "Gold"
+      "Membership Status": "Gold",
+      "Amount Spent COP": 54000
     },
     "TG_1028": {
       "Customer ID": "TG-1028",
@@ -357,12 +357,12 @@
       "Email": "diego.mora@example.com",
       "Product Purchased": "Bluetooth Speaker",
       "Purchase Date": "2025-09-15",
-      "Amount Spent ($)": 122000,
       "Age": 47,
       "City": "Manizales",
       "Payment Method": "Bank Transfer",
       "Last Login Date": "2025-11-16",
-      "Membership Status": "Gold"
+      "Membership Status": "Gold",
+      "Amount Spent COP": 122000
     },
     "TG_1029": {
       "Customer ID": "TG-1029",
@@ -370,12 +370,12 @@
       "Email": "valentina.duarte@example.com",
       "Product Purchased": "Mechanical Keyboard",
       "Purchase Date": "2025-12-04",
-      "Amount Spent ($)": 240000,
       "Age": 48,
       "City": "Cali",
       "Payment Method": "Cash",
       "Last Login Date": "2025-12-08",
-      "Membership Status": "Bronze"
+      "Membership Status": "Bronze",
+      "Amount Spent COP": 240000
     },
     "TG_1030": {
       "Customer ID": "TG-1030",
@@ -383,12 +383,12 @@
       "Email": "laura.salazar@example.com",
       "Product Purchased": "USB-C Hub",
       "Purchase Date": "2025-11-28",
-      "Amount Spent ($)": 79000,
       "Age": 19,
       "City": "Santa Marta",
       "Payment Method": "PayPal",
       "Last Login Date": "2025-12-15",
-      "Membership Status": "Bronze"
+      "Membership Status": "Bronze",
+      "Amount Spent COP": 79000
     },
     "TG_1031": {
       "Customer ID": "TG-1031",
@@ -396,12 +396,12 @@
       "Email": "manuela.pena@example.com",
       "Product Purchased": "External SSD 1TB",
       "Purchase Date": "2025-09-22",
-      "Amount Spent ($)": 376000,
       "Age": 32,
       "City": "Santa Marta",
       "Payment Method": "Cash",
       "Last Login Date": "2025-11-06",
-      "Membership Status": "Gold"
+      "Membership Status": "Gold",
+      "Amount Spent COP": 376000
     },
     "TG_1032": {
       "Customer ID": "TG-1032",
@@ -409,12 +409,12 @@
       "Email": "carolina.castro@example.com",
       "Product Purchased": "Webcam HD",
       "Purchase Date": "2025-12-13",
-      "Amount Spent ($)": 161000,
       "Age": 43,
       "City": "Barranquilla",
       "Payment Method": "Debit Card",
       "Last Login Date": "2025-12-13",
-      "Membership Status": "Platinum"
+      "Membership Status": "Platinum",
+      "Amount Spent COP": 161000
     },
     "TG_1033": {
       "Customer ID": "TG-1033",
@@ -422,12 +422,12 @@
       "Email": "nicolas.restrepo@example.com",
       "Product Purchased": "Wireless Mouse",
       "Purchase Date": "2025-10-31",
-      "Amount Spent ($)": 82000,
       "Age": 30,
       "City": "Cucuta",
       "Payment Method": "PayPal",
       "Last Login Date": "2025-11-16",
-      "Membership Status": "Platinum"
+      "Membership Status": "Platinum",
+      "Amount Spent COP": 82000
     },
     "TG_1034": {
       "Customer ID": "TG-1034",
@@ -435,12 +435,12 @@
       "Email": "tomas.mora@example.com",
       "Product Purchased": "USB-C Hub",
       "Purchase Date": "2025-09-29",
-      "Amount Spent ($)": 71000,
       "Age": 32,
       "City": "Manizales",
       "Payment Method": "Debit Card",
       "Last Login Date": "2025-10-12",
-      "Membership Status": "Gold"
+      "Membership Status": "Gold",
+      "Amount Spent COP": 71000
     },
     "TG_1035": {
       "Customer ID": "TG-1035",
@@ -448,12 +448,12 @@
       "Email": "laura.nino@example.com",
       "Product Purchased": "Webcam HD",
       "Purchase Date": "2025-11-01",
-      "Amount Spent ($)": 110000,
       "Age": 40,
       "City": "Medellin",
       "Payment Method": "Credit Card",
       "Last Login Date": "2025-12-12",
-      "Membership Status": "Platinum"
+      "Membership Status": "Platinum",
+      "Amount Spent COP": 110000
     },
     "TG_1036": {
       "Customer ID": "TG-1036",
@@ -461,12 +461,12 @@
       "Email": "tomas.ramirez@example.com",
       "Product Purchased": "Bluetooth Speaker",
       "Purchase Date": "2025-10-26",
-      "Amount Spent ($)": 137000,
       "Age": 58,
       "City": "Bucaramanga",
       "Payment Method": "Credit Card",
       "Last Login Date": "2025-12-15",
-      "Membership Status": "Platinum"
+      "Membership Status": "Platinum",
+      "Amount Spent COP": 137000
     },
     "TG_1037": {
       "Customer ID": "TG-1037",
@@ -474,12 +474,12 @@
       "Email": "alejandra.aguilar@example.com",
       "Product Purchased": "Fast Charger 65W",
       "Purchase Date": "2025-12-02",
-      "Amount Spent ($)": 61000,
       "Age": 28,
       "City": "Cali",
       "Payment Method": "Credit Card",
       "Last Login Date": "2025-12-04",
-      "Membership Status": "Silver"
+      "Membership Status": "Silver",
+      "Amount Spent COP": 61000
     },
     "TG_1038": {
       "Customer ID": "TG-1038",
@@ -487,12 +487,12 @@
       "Email": "natalia.beltran2@example.com",
       "Product Purchased": "Tablet 10 inch",
       "Purchase Date": "2025-11-18",
-      "Amount Spent ($)": 1053000,
       "Age": 56,
       "City": "Manizales",
       "Payment Method": "PayPal",
       "Last Login Date": "2025-12-14",
-      "Membership Status": "Silver"
+      "Membership Status": "Silver",
+      "Amount Spent COP": 1053000
     },
     "TG_1039": {
       "Customer ID": "TG-1039",
@@ -500,12 +500,12 @@
       "Email": "juan.quintero@example.com",
       "Product Purchased": "4K Monitor 27\"",
       "Purchase Date": "2025-09-02",
-      "Amount Spent ($)": 922000,
       "Age": 64,
       "City": "Medellin",
       "Payment Method": "Cash",
       "Last Login Date": "2025-12-13",
-      "Membership Status": "Silver"
+      "Membership Status": "Silver",
+      "Amount Spent COP": 922000
     },
     "TG_1040": {
       "Customer ID": "TG-1040",
@@ -513,12 +513,12 @@
       "Email": "miguel.ramirez@example.com",
       "Product Purchased": "Smartwatch Pro",
       "Purchase Date": "2025-10-03",
-      "Amount Spent ($)": 465000,
       "Age": 36,
       "City": "Santa Marta",
       "Payment Method": "Debit Card",
       "Last Login Date": "2025-10-30",
-      "Membership Status": "Gold"
+      "Membership Status": "Gold",
+      "Amount Spent COP": 465000
     },
     "TG_1041": {
       "Customer ID": "TG-1041",
@@ -526,12 +526,12 @@
       "Email": "daniela.quintero@example.com",
       "Product Purchased": "Laptop Ultra 14",
       "Purchase Date": "2025-09-08",
-      "Amount Spent ($)": 3350000,
       "Age": 40,
       "City": "Manizales",
       "Payment Method": "Cash",
       "Last Login Date": "2025-12-11",
-      "Membership Status": "Platinum"
+      "Membership Status": "Platinum",
+      "Amount Spent COP": 3350000
     },
     "TG_1042": {
       "Customer ID": "TG-1042",
@@ -539,12 +539,12 @@
       "Email": "luisa.salazar@example.com",
       "Product Purchased": "4K Monitor 27\"",
       "Purchase Date": "2025-09-20",
-      "Amount Spent ($)": 1458000,
       "Age": 50,
       "City": "Bogota",
       "Payment Method": "Bank Transfer",
       "Last Login Date": "2025-11-26",
-      "Membership Status": "Silver"
+      "Membership Status": "Silver",
+      "Amount Spent COP": 1458000
     },
     "TG_1043": {
       "Customer ID": "TG-1043",
@@ -552,12 +552,12 @@
       "Email": "diego.restrepo@example.com",
       "Product Purchased": "4K Monitor 27\"",
       "Purchase Date": "2025-09-19",
-      "Amount Spent ($)": 1081000,
       "Age": 57,
       "City": "Medellin",
       "Payment Method": "Cash",
       "Last Login Date": "2025-11-18",
-      "Membership Status": "Bronze"
+      "Membership Status": "Bronze",
+      "Amount Spent COP": 1081000
     },
     "TG_1044": {
       "Customer ID": "TG-1044",
@@ -565,12 +565,12 @@
       "Email": "isabella.salazar@example.com",
       "Product Purchased": "External SSD 1TB",
       "Purchase Date": "2025-11-01",
-      "Amount Spent ($)": 426000,
       "Age": 53,
       "City": "Bogota",
       "Payment Method": "Debit Card",
       "Last Login Date": "2025-11-07",
-      "Membership Status": "Silver"
+      "Membership Status": "Silver",
+      "Amount Spent COP": 426000
     },
     "TG_1045": {
       "Customer ID": "TG-1045",
@@ -578,12 +578,12 @@
       "Email": "daniela.gomez@example.com",
       "Product Purchased": "Mechanical Keyboard",
       "Purchase Date": "2025-10-28",
-      "Amount Spent ($)": 283000,
       "Age": 19,
       "City": "Medellin",
       "Payment Method": "Bank Transfer",
       "Last Login Date": "2025-12-02",
-      "Membership Status": "Gold"
+      "Membership Status": "Gold",
+      "Amount Spent COP": 283000
     },
     "TG_1046": {
       "Customer ID": "TG-1046",
@@ -591,12 +591,12 @@
       "Email": "diego.salazar@example.com",
       "Product Purchased": "Webcam HD",
       "Purchase Date": "2025-09-26",
-      "Amount Spent ($)": 244000,
       "Age": 46,
       "City": "Santa Marta",
       "Payment Method": "Cash",
       "Last Login Date": "2025-10-31",
-      "Membership Status": "Platinum"
+      "Membership Status": "Platinum",
+      "Amount Spent COP": 244000
     },
     "TG_1047": {
       "Customer ID": "TG-1047",
@@ -604,12 +604,12 @@
       "Email": "paula.castro@example.com",
       "Product Purchased": "Fast Charger 65W",
       "Purchase Date": "2025-10-04",
-      "Amount Spent ($)": 89000,
       "Age": 30,
       "City": "Manizales",
       "Payment Method": "Debit Card",
       "Last Login Date": "2025-12-14",
-      "Membership Status": "Platinum"
+      "Membership Status": "Platinum",
+      "Amount Spent COP": 89000
     },
     "TG_1048": {
       "Customer ID": "TG-1048",
@@ -617,12 +617,12 @@
       "Email": "andres.aguilar@example.com",
       "Product Purchased": "Bluetooth Speaker",
       "Purchase Date": "2025-09-10",
-      "Amount Spent ($)": 173000,
       "Age": 33,
       "City": "Pereira",
       "Payment Method": "Credit Card",
       "Last Login Date": "2025-12-04",
-      "Membership Status": "Silver"
+      "Membership Status": "Silver",
+      "Amount Spent COP": 173000
     },
     "TG_1049": {
       "Customer ID": "TG-1049",
@@ -630,12 +630,12 @@
       "Email": "ricardo.vargas@example.com",
       "Product Purchased": "Mechanical Keyboard",
       "Purchase Date": "2025-12-01",
-      "Amount Spent ($)": 190000,
       "Age": 60,
       "City": "Bucaramanga",
       "Payment Method": "Debit Card",
       "Last Login Date": "2025-12-11",
-      "Membership Status": "Gold"
+      "Membership Status": "Gold",
+      "Amount Spent COP": 190000
     },
     "TG_1050": {
       "Customer ID": "TG-1050",
@@ -643,12 +643,12 @@
       "Email": "antonia.duarte2@example.com",
       "Product Purchased": "Bluetooth Speaker",
       "Purchase Date": "2025-12-05",
-      "Amount Spent ($)": 148000,
       "Age": 43,
       "City": "Manizales",
       "Payment Method": "Debit Card",
       "Last Login Date": "2025-12-06",
-      "Membership Status": "Silver"
+      "Membership Status": "Silver",
+      "Amount Spent COP": 148000
     },
     "TG_1051": {
       "Customer ID": "TG-1051",
@@ -656,12 +656,12 @@
       "Email": "santiago.cardenas@example.com",
       "Product Purchased": "External SSD 1TB",
       "Purchase Date": "2025-10-14",
-      "Amount Spent ($)": 386000,
       "Age": 30,
       "City": "Bucaramanga",
       "Payment Method": "PayPal",
       "Last Login Date": "2025-11-09",
-      "Membership Status": "Bronze"
+      "Membership Status": "Bronze",
+      "Amount Spent COP": 386000
     },
     "TG_1052": {
       "Customer ID": "TG-1052",
@@ -669,12 +669,12 @@
       "Email": "esteban.mora@example.com",
       "Product Purchased": "Wireless Mouse",
       "Purchase Date": "2025-11-10",
-      "Amount Spent ($)": 89000,
       "Age": 46,
       "City": "Bogota",
       "Payment Method": "Bank Transfer",
       "Last Login Date": "2025-12-09",
-      "Membership Status": "Gold"
+      "Membership Status": "Gold",
+      "Amount Spent COP": 89000
     },
     "TG_1053": {
       "Customer ID": "TG-1053",
@@ -682,12 +682,12 @@
       "Email": "paula.cifuentes@example.com",
       "Product Purchased": "Noise Cancelling Headphones",
       "Purchase Date": "2025-09-09",
-      "Amount Spent ($)": 649000,
       "Age": 32,
       "City": "Medellin",
       "Payment Method": "Credit Card",
       "Last Login Date": "2025-09-23",
-      "Membership Status": "Gold"
+      "Membership Status": "Gold",
+      "Amount Spent COP": 649000
     },
     "TG_1054": {
       "Customer ID": "TG-1054",
@@ -695,12 +695,12 @@
       "Email": "daniela.gomez2@example.com",
       "Product Purchased": "4K Monitor 27\"",
       "Purchase Date": "2025-12-06",
-      "Amount Spent ($)": 1184000,
       "Age": 45,
       "City": "Cartagena",
       "Payment Method": "Bank Transfer",
       "Last Login Date": "2025-12-08",
-      "Membership Status": "Silver"
+      "Membership Status": "Silver",
+      "Amount Spent COP": 1184000
     },
     "TG_1055": {
       "Customer ID": "TG-1055",
@@ -708,12 +708,12 @@
       "Email": "juan.salazar@example.com",
       "Product Purchased": "Webcam HD",
       "Purchase Date": "2025-11-29",
-      "Amount Spent ($)": 240000,
       "Age": 23,
       "City": "Cartagena",
       "Payment Method": "Credit Card",
       "Last Login Date": "2025-12-09",
-      "Membership Status": "Silver"
+      "Membership Status": "Silver",
+      "Amount Spent COP": 240000
     },
     "TG_1056": {
       "Customer ID": "TG-1056",
@@ -721,12 +721,12 @@
       "Email": "miguel.rios@example.com",
       "Product Purchased": "Noise Cancelling Headphones",
       "Purchase Date": "2025-11-21",
-      "Amount Spent ($)": 389000,
       "Age": 34,
       "City": "Medellin",
       "Payment Method": "Cash",
       "Last Login Date": "2025-11-23",
-      "Membership Status": "Silver"
+      "Membership Status": "Silver",
+      "Amount Spent COP": 389000
     },
     "TG_1057": {
       "Customer ID": "TG-1057",
@@ -734,12 +734,12 @@
       "Email": "valentina.pena@example.com",
       "Product Purchased": "Mechanical Keyboard",
       "Purchase Date": "2025-09-02",
-      "Amount Spent ($)": 269000,
       "Age": 53,
       "City": "Pereira",
       "Payment Method": "PayPal",
       "Last Login Date": "2025-10-15",
-      "Membership Status": "Silver"
+      "Membership Status": "Silver",
+      "Amount Spent COP": 269000
     },
     "TG_1058": {
       "Customer ID": "TG-1058",
@@ -747,12 +747,12 @@
       "Email": "julian.salazar@example.com",
       "Product Purchased": "Fast Charger 65W",
       "Purchase Date": "2025-09-15",
-      "Amount Spent ($)": 71000,
       "Age": 34,
       "City": "Bogota",
       "Payment Method": "Debit Card",
       "Last Login Date": "2025-10-05",
-      "Membership Status": "Silver"
+      "Membership Status": "Silver",
+      "Amount Spent COP": 71000
     },
     "TG_1059": {
       "Customer ID": "TG-1059",
@@ -760,12 +760,12 @@
       "Email": "emilio.vargas@example.com",
       "Product Purchased": "Tablet 10 inch",
       "Purchase Date": "2025-11-07",
-      "Amount Spent ($)": 1220000,
       "Age": 36,
       "City": "Manizales",
       "Payment Method": "Cash",
       "Last Login Date": "2025-11-20",
-      "Membership Status": "Silver"
+      "Membership Status": "Silver",
+      "Amount Spent COP": 1220000
     },
     "TG_1060": {
       "Customer ID": "TG-1060",
@@ -773,12 +773,12 @@
       "Email": "daniela.mora@example.com",
       "Product Purchased": "Wireless Mouse",
       "Purchase Date": "2025-09-05",
-      "Amount Spent ($)": 78000,
       "Age": 19,
       "City": "Santa Marta",
       "Payment Method": "Cash",
       "Last Login Date": "2025-09-06",
-      "Membership Status": "Silver"
+      "Membership Status": "Silver",
+      "Amount Spent COP": 78000
     },
     "TG_1061": {
       "Customer ID": "TG-1061",
@@ -786,12 +786,12 @@
       "Email": "paula.nino@example.com",
       "Product Purchased": "Smartwatch Pro",
       "Purchase Date": "2025-10-28",
-      "Amount Spent ($)": 940000,
       "Age": 60,
       "City": "Pereira",
       "Payment Method": "Bank Transfer",
       "Last Login Date": "2025-11-03",
-      "Membership Status": "Platinum"
+      "Membership Status": "Platinum",
+      "Amount Spent COP": 940000
     },
     "TG_1062": {
       "Customer ID": "TG-1062",
@@ -799,12 +799,12 @@
       "Email": "paula.vargas@example.com",
       "Product Purchased": "Fast Charger 65W",
       "Purchase Date": "2025-09-30",
-      "Amount Spent ($)": 69000,
       "Age": 30,
       "City": "Cali",
       "Payment Method": "Bank Transfer",
       "Last Login Date": "2025-11-12",
-      "Membership Status": "Gold"
+      "Membership Status": "Gold",
+      "Amount Spent COP": 69000
     },
     "TG_1063": {
       "Customer ID": "TG-1063",
@@ -812,12 +812,12 @@
       "Email": "julian.duarte@example.com",
       "Product Purchased": "Wireless Mouse",
       "Purchase Date": "2025-11-20",
-      "Amount Spent ($)": 54000,
       "Age": 34,
       "City": "Pereira",
       "Payment Method": "Debit Card",
       "Last Login Date": "2025-12-13",
-      "Membership Status": "Bronze"
+      "Membership Status": "Bronze",
+      "Amount Spent COP": 54000
     },
     "TG_1064": {
       "Customer ID": "TG-1064",
@@ -825,12 +825,12 @@
       "Email": "valentina.aguilar@example.com",
       "Product Purchased": "External SSD 1TB",
       "Purchase Date": "2025-10-07",
-      "Amount Spent ($)": 456000,
       "Age": 62,
       "City": "Cartagena",
       "Payment Method": "Credit Card",
       "Last Login Date": "2025-11-07",
-      "Membership Status": "Platinum"
+      "Membership Status": "Platinum",
+      "Amount Spent COP": 456000
     },
     "TG_1065": {
       "Customer ID": "TG-1065",
@@ -838,12 +838,12 @@
       "Email": "santiago.lopez@example.com",
       "Product Purchased": "Noise Cancelling Headphones",
       "Purchase Date": "2025-09-01",
-      "Amount Spent ($)": 614000,
       "Age": 41,
       "City": "Bucaramanga",
       "Payment Method": "Cash",
       "Last Login Date": "2025-10-04",
-      "Membership Status": "Gold"
+      "Membership Status": "Gold",
+      "Amount Spent COP": 614000
     },
     "TG_1066": {
       "Customer ID": "TG-1066",
@@ -851,12 +851,12 @@
       "Email": "felipe.gomez@example.com",
       "Product Purchased": "Noise Cancelling Headphones",
       "Purchase Date": "2025-10-16",
-      "Amount Spent ($)": 494000,
       "Age": 18,
       "City": "Bucaramanga",
       "Payment Method": "Bank Transfer",
       "Last Login Date": "2025-10-27",
-      "Membership Status": "Bronze"
+      "Membership Status": "Bronze",
+      "Amount Spent COP": 494000
     }
   }
 }

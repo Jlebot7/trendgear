@@ -121,8 +121,16 @@ def main():
         writer.writeheader()
         writer.writerows(records)
 
-    # JSON en forma de objeto (clave = Customer ID), formato nativo de Firebase Realtime Database
-    firebase_obj = {r["Customer ID"].replace("-", "_"): r for r in records}
+    # JSON en forma de objeto (clave = Customer ID), formato nativo de Firebase Realtime Database.
+    # Firebase prohibe las claves con . $ # [ ] / -> "Amount Spent ($)" no es valido como
+    # NOMBRE DE CAMPO dentro del JSON (si lo es como encabezado de CSV/PSV), por eso aqui
+    # se renombra solo para el JSON a "Amount Spent COP".
+    def to_firebase_record(r):
+        safe = dict(r)
+        safe["Amount Spent COP"] = safe.pop("Amount Spent ($)")
+        return safe
+
+    firebase_obj = {r["Customer ID"].replace("-", "_"): to_firebase_record(r) for r in records}
     with open("/home/claude/trendgear/data/trendgear_dataset.json", "w", encoding="utf-8") as f:
         json.dump(firebase_obj, f, ensure_ascii=False, indent=2)
 

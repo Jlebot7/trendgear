@@ -21,6 +21,8 @@ trendgear-dashboard/
 │   ├── one_shot_prompt_dataset.txt # Fase I - Paso 3: prompt de one-shot usado para escalar el dataset
 │   ├── trendgear_dataset.psv/.csv/.json      # 60 registros generados a partir del one-shot
 │   ├── trendgear_full_dataset.psv/.csv/.json # Dataset FINAL (muestra + generados) = 66 registros
+│   │                                          # el .json trae el envoltorio {"customers": {...}} -> importar en la RAIZ
+│   ├── trendgear_customers_only.json         # mismo dataset SIN envoltorio -> importar dentro del nodo /customers
 │   └── reporte_validacion.txt      # Fase I - Paso 4: salida del checklist de integridad
 ├── scripts/
 │   ├── generate_dataset.py         # Implementa las reglas del one-shot prompt vía script
@@ -150,7 +152,11 @@ Este es el prompt que reproduce exactamente la arquitectura de `index.html`, `cs
 `js/app.js` está listo para conectarse a un proyecto real de Firebase:
 
 1. Crea un proyecto en [Firebase Console](https://console.firebase.google.com/) y habilita **Realtime Database**.
-2. Importa `data/trendgear_full_dataset.json` dentro del nodo `customers` de tu base (el archivo ya viene en la forma `{ "customers": { "TG_1001": {...}, ... } }`, lista para "Import JSON" desde la consola de Firebase).
+2. Importa el dataset. Hay **2 archivos**, según dónde hagas clic en "Import JSON":
+   - `data/trendgear_full_dataset.json` → clic derecho en la **raíz** de la base (trae el envoltorio `{ "customers": { "TG_1001": {...}, ... } }` y Firebase crea el nodo `customers` automáticamente).
+   - `data/trendgear_customers_only.json` → clic derecho **ya dentro** del nodo `/customers` (sin envoltorio, directamente `{ "TG_1001": {...}, ... }`).
+
+   Usar el archivo equivocado en el lugar equivocado duplica el nivel `customers` o lo ubica mal — si tras importar el dashboard carga datos "vacíos", es la primera causa a revisar.
 3. Configura las reglas de lectura pública (solo para este entorno de pruebas):
    ```json
    { "rules": { ".read": true, ".write": false } }
@@ -166,6 +172,16 @@ Mientras no configures tu URL, el dashboard funciona igual de bien porque `app.j
 **Protocolo de depuración asistida:** cualquier error de fetch queda registrado en la consola del navegador (`console.warn` / `console.error`) con el mensaje exacto de Firebase — cópialo junto con el fragmento de `loadCustomers()` si necesitas pedirle ayuda a una IA para resolverlo.
 
 ---
+
+### ⚠️ Troubleshooting: "Archivo JSON no válido — las claves no pueden estar vacías ni contener `$#[]./`"
+
+Firebase Realtime Database prohíbe esos caracteres en los **nombres de los campos**, no en los valores. La primera versión de este dataset usaba la columna `Amount Spent ($)` también como clave dentro del JSON, y el `$` la invalidaba. Se corrigió así:
+
+- **CSV / PSV** (`data/trendgear_full_dataset.csv` / `.psv`): conservan el encabezado `Amount Spent ($)` tal como lo pide la guía — ahí no es una "clave" de objeto, es solo texto de columna, así que no hay problema.
+- **JSON** (los 3 archivos en `data/`): el campo se renombró a `Amount Spent COP` (sin `$`). `js/app.js` ya lee ese nombre.
+- Los IDs de nodo (`TG_1001`, etc.) usan guion bajo en vez de guion, aunque el guion en realidad sí está permitido por Firebase — se dejó así por consistencia con el resto de identificadores del proyecto.
+
+Si en el futuro agregas un campo nuevo al dataset y lo vas a llevar a Firebase, evita `. $ # [ ] /` en su nombre de columna al momento de generar el JSON (sí puedes usarlos libremente en CSV/PSV).
 
 ## 5. Cómo ejecutar
 
