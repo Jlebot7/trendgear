@@ -93,7 +93,10 @@ function renderTable(rows) {
         <td data-label="Email">${c["Email"]}</td>
         <td data-label="Producto">${c["Product Purchased"]}</td>
         <td class="date" data-label="Fecha compra">${c["Purchase Date"]}</td>
-        <td class="amount" data-label="Monto">${money.format(Number(c["Amount Spent ($)"]))}</td>
+        <td class="amount" data-label="Monto">${money.format(Number(c["Amount Spent ($)"] ?? c["Amount Spent COP"]))}</td>
+
+
+
         <td data-label="Edad">${c["Age"]}</td>
         <td data-label="Ciudad">${c["City"]}</td>
         <td data-label="Pago">${c["Payment Method"]}</td>
@@ -106,7 +109,13 @@ function renderTable(rows) {
 }
 
 function renderKPIs(rows) {
-  const totalRevenue = rows.reduce((sum, c) => sum + Number(c["Amount Spent ($)"]), 0);
+  const getAmount = (c) => {
+    const raw = c["Amount Spent ($)"] ?? c["Amount Spent COP"];
+    const n = Number(raw);
+    return Number.isFinite(n) ? n : 0;
+  };
+
+  const totalRevenue = rows.reduce((sum, c) => sum + getAmount(c), 0);
   const totalCustomers = rows.length;
   const avgTicket = totalCustomers ? totalRevenue / totalCustomers : 0;
   const topTierPct = totalCustomers
@@ -125,6 +134,7 @@ function renderKPIs(rows) {
     document.getElementById("kpiTopBar").style.width = `${Math.max(topTierPct, 6)}%`;
   });
 }
+
 
 function animateValue(elId, formatFn, target, duration = 900) {
   const el = document.getElementById(elId);
