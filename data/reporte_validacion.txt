@@ -1,0 +1,9 @@
+Registros analizados: 66
+IDs unicos: 66
+
+Resultado: el dataset PASA las 6 verificaciones del checklist de integridad.
+ - Numeros (Age 13-100, Amount Spent >= 0): OK
+ - Fechas (ISO, Purchase <= Last Login, sin fechas futuras): OK
+ - Categorias normalizadas (Payment Method, Membership Status): OK
+ - Unicidad de Customer ID: OK
+ - Coherencia cruzada (dominio de email, ciudad del catalogo): OK

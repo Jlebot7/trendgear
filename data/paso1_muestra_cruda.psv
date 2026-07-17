@@ -1,0 +1,8 @@
+Customer ID|Name|Email|Product Purchased|Purchase Date|Amount Spent ($)|Age|City|Payment Method|Last Login Date|Membership Status
+TG-1001|Camila Restrepo|camila.restrepo@example.com|Wireless Mouse|2025-11-02|89000|27|Bogotá, D.C.|credit card|2025-11-10|gold
+TG-1002|Julián Gómez|julian.gomez@example.com|Mechanical Keyboard|2025-11-05|245000|34|Medellín|Credit Card|2025-11-04|Silver
+TG-1002|Julián Gómez|julian.gomez@example.com|Mechanical Keyboard|2025-11-05|245000|34|Medellín|Credit Card|2025-11-04|Silver
+TG-1003|Valentina Ríos|valentina.rios@example.com|Smartwatch Pro|2025-12-01|780000|19|Cali|paypal|2025-11-28|Bronze
+TG-1004|Andrés Torres|andres.torres@example.com|Noise Cancelling Headphones|2025-10-15|560000|150|Barranquilla|Debit card|2025-10-20|platinum
+TG-1005|Mariana Duarte|mariana.duarte@example.com|USB-C Hub|2025-11-20|95000|22|Cartagena, Bolívar|Bank Transfer|2025-11-19|Silver
+TG-1006|Santiago López|santiago.lopez@example.com|4K Monitor 27"|2025-11-18|1250000|41|Bucaramanga|credit card|2025-11-22|Gold

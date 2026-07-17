@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>TrendGear · Dashboard de Clientes</title>
+<meta name="description" content="Dashboard de analitica de clientes de TrendGear, alimentado por Firebase Realtime Database." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <div class="brand">
+      <span class="brand-mark">TG</span>
+      TrendGear
+    </div>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#dashboard" class="active">Dashboard</a>
+      <a href="#clientes">Clientes</a>
+      <a href="#reportes">Distribuciones</a>
+      <span class="conn-status" id="connStatus">
+        <span class="conn-dot"></span>
+        <span id="connLabel">Conectando…</span>
+      </span>
+    </nav>
+
+    <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main class="container" id="dashboard">
+
+  <section class="hero">
+    <div class="hero-heading">
+      <h1>Dashboard de clientes</h1>
+      <p>Datos sinteticos generados para maquetacion — sin informacion real de clientes.</p>
+    </div>
+
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-label">Ingresos totales</div>
+        <div class="kpi-value" id="kpiRevenue">$0</div>
+        <div class="kpi-bar"><span id="kpiRevenueBar"></span></div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Clientes registrados</div>
+        <div class="kpi-value" id="kpiCustomers">0</div>
+        <div class="kpi-bar"><span id="kpiCustomersBar"></span></div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Ticket promedio</div>
+        <div class="kpi-value" id="kpiAvg">$0</div>
+        <div class="kpi-bar"><span id="kpiAvgBar"></span></div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Miembros Gold + Platinum</div>
+        <div class="kpi-value" id="kpiTop">0%</div>
+        <div class="kpi-bar"><span id="kpiTopBar"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="dashboard-grid">
+
+    <!-- Panel lateral: filtros + graficos -->
+    <aside>
+      <div class="panel">
+        <h2>Buscar y filtrar</h2>
+        <div class="field">
+          <label for="searchInput">Nombre o email</label>
+          <input type="text" id="searchInput" placeholder="Ej. Camila, cucuta…" />
+        </div>
+        <div class="field">
+          <label for="cityFilter">Ciudad</label>
+          <select id="cityFilter"><option value="">Todas</option></select>
+        </div>
+        <div class="field">
+          <label for="tierFilter">Membresia</label>
+          <select id="tierFilter">
+            <option value="">Todas</option>
+            <option value="Bronze">Bronze</option>
+            <option value="Silver">Silver</option>
+            <option value="Gold">Gold</option>
+            <option value="Platinum">Platinum</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="paymentFilter">Metodo de pago</label>
+          <select id="paymentFilter">
+            <option value="">Todos</option>
+            <option value="Credit Card">Credit Card</option>
+            <option value="Debit Card">Debit Card</option>
+            <option value="PayPal">PayPal</option>
+            <option value="Bank Transfer">Bank Transfer</option>
+            <option value="Cash">Cash</option>
+          </select>
+        </div>
+        <button class="reset-btn" id="resetFilters">Limpiar filtros</button>
+      </div>
+
+      <div class="panel" id="reportes">
+        <h2>Distribucion por membresia</h2>
+        <div id="tierChart"></div>
+        <div class="chart-legend" id="tierLegend"></div>
+      </div>
+
+      <div class="panel">
+        <h2>Histograma de edades</h2>
+        <div id="ageChart"></div>
+      </div>
+    </aside>
+
+    <!-- Tabla de clientes -->
+    <section id="clientes">
+      <div class="table-toolbar">
+        <span class="count" id="rowCount">Cargando…</span>
+      </div>
+
+      <div class="table-wrap">
+        <table class="customers">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nombre</th>
+              <th>Email</th>
+              <th>Producto</th>
+              <th>Fecha compra</th>
+              <th>Monto</th>
+              <th>Edad</th>
+              <th>Ciudad</th>
+              <th>Pago</th>
+              <th>Ultimo login</th>
+              <th>Membresia</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody">
+            <!-- filas inyectadas dinamicamente por js/app.js (data.forEach + template literals) -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <span>© 2026 TrendGear · Dashboard de datos sinteticos para fines de maquetacion</span>
+  <span id="footerStatus">Fuente de datos: —</span>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>

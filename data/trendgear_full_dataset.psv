@@ -1,0 +1,67 @@
+Customer ID|Name|Email|Product Purchased|Purchase Date|Amount Spent ($)|Age|City|Payment Method|Last Login Date|Membership Status
+TG-1001|Camila Restrepo|camila.restrepo@example.com|Wireless Mouse|2025-11-02|89000|27|Bogotá, D.C.|Credit Card|2025-11-10|Gold
+TG-1002|Julián Gómez|julian.gomez@example.com|Mechanical Keyboard|2025-11-05|245000|34|Medellín|Credit Card|2025-11-09|Silver
+TG-1003|Valentina Ríos|valentina.rios@example.com|Smartwatch Pro|2025-11-25|780000|19|Cali|PayPal|2025-11-28|Bronze
+TG-1004|Andrés Torres|andres.torres@example.com|Noise Cancelling Headphones|2025-10-15|560000|58|Barranquilla|Debit Card|2025-10-20|Platinum
+TG-1005|Mariana Duarte|mariana.duarte@example.com|USB-C Hub|2025-11-20|95000|22|Cartagena, Bolívar|Bank Transfer|2025-11-25|Silver
+TG-1006|Santiago López|santiago.lopez@example.com|"4K Monitor 27"""|2025-11-18|1250000|41|Bucaramanga|Credit Card|2025-11-22|Gold
+TG-1007|Isabella Duarte|isabella.duarte@example.com|Laptop Ultra 14|2025-09-10|3003000|24|Bucaramanga|Cash|2025-11-17|Bronze
+TG-1008|Emilio Salazar|emilio.salazar@example.com|Smartwatch Pro|2025-09-12|470000|44|Medellin|Debit Card|2025-11-06|Bronze
+TG-1009|Juan Cardenas|juan.cardenas@example.com|Wireless Mouse|2025-09-16|119000|58|Cucuta|Credit Card|2025-10-14|Platinum
+TG-1010|Julian Castro|julian.castro@example.com|Wireless Mouse|2025-09-18|118000|44|Cali|Cash|2025-10-25|Bronze
+TG-1011|Natalia Vargas|natalia.vargas@example.com|External SSD 1TB|2025-09-24|459000|55|Cucuta|Debit Card|2025-10-07|Gold
+TG-1012|Andres Quintero|andres.quintero@example.com|Fast Charger 65W|2025-11-12|59000|57|Barranquilla|Bank Transfer|2025-11-15|Platinum
+TG-1013|Gabriela Rojas|gabriela.rojas@example.com|Bluetooth Speaker|2025-10-29|244000|37|Barranquilla|Debit Card|2025-11-21|Silver
+TG-1014|Valentina Zapata|valentina.zapata@example.com|Noise Cancelling Headphones|2025-11-03|655000|64|Manizales|PayPal|2025-11-24|Bronze
+TG-1015|Andres Salazar|andres.salazar@example.com|Laptop Ultra 14|2025-12-06|3492000|27|Manizales|Bank Transfer|2025-12-11|Bronze
+TG-1016|Ricardo Rios|ricardo.rios@example.com|External SSD 1TB|2025-12-11|430000|39|Bucaramanga|Cash|2025-12-13|Platinum
+TG-1017|Natalia Beltran|natalia.beltran@example.com|Mechanical Keyboard|2025-10-05|175000|62|Medellin|Credit Card|2025-12-04|Gold
+TG-1018|Carolina Zapata|carolina.zapata@example.com|Tablet 10 inch|2025-10-28|1762000|63|Pereira|PayPal|2025-11-15|Bronze
+TG-1019|Alejandra Mora|alejandra.mora@example.com|"4K Monitor 27"""|2025-09-15|1541000|21|Barranquilla|PayPal|2025-11-17|Silver
+TG-1020|Esteban Castro|esteban.castro@example.com|Laptop Ultra 14|2025-11-03|4440000|28|Manizales|Bank Transfer|2025-11-08|Gold
+TG-1021|Antonia Duarte|antonia.duarte@example.com|Laptop Ultra 14|2025-10-06|5108000|40|Pereira|Debit Card|2025-11-28|Silver
+TG-1022|Valentina Lopez|valentina.lopez@example.com|"4K Monitor 27"""|2025-11-24|1143000|18|Manizales|Cash|2025-12-01|Silver
+TG-1023|Daniela Vargas|daniela.vargas@example.com|Wireless Mouse|2025-10-24|64000|41|Cucuta|Cash|2025-11-27|Gold
+TG-1024|Mariana Salazar|mariana.salazar@example.com|Webcam HD|2025-10-29|124000|53|Pereira|Bank Transfer|2025-12-11|Platinum
+TG-1025|Sofia Torres|sofia.torres@example.com|Bluetooth Speaker|2025-09-08|195000|22|Barranquilla|Bank Transfer|2025-10-02|Silver
+TG-1026|Andres Rojas|andres.rojas@example.com|Webcam HD|2025-09-14|124000|54|Cali|Cash|2025-09-14|Bronze
+TG-1027|Nicolas Cifuentes|nicolas.cifuentes@example.com|Wireless Mouse|2025-09-27|54000|42|Cali|PayPal|2025-12-14|Gold
+TG-1028|Diego Mora|diego.mora@example.com|Bluetooth Speaker|2025-09-15|122000|47|Manizales|Bank Transfer|2025-11-16|Gold
+TG-1029|Valentina Duarte|valentina.duarte@example.com|Mechanical Keyboard|2025-12-04|240000|48|Cali|Cash|2025-12-08|Bronze
+TG-1030|Laura Salazar|laura.salazar@example.com|USB-C Hub|2025-11-28|79000|19|Santa Marta|PayPal|2025-12-15|Bronze
+TG-1031|Manuela Pena|manuela.pena@example.com|External SSD 1TB|2025-09-22|376000|32|Santa Marta|Cash|2025-11-06|Gold
+TG-1032|Carolina Castro|carolina.castro@example.com|Webcam HD|2025-12-13|161000|43|Barranquilla|Debit Card|2025-12-13|Platinum
+TG-1033|Nicolas Restrepo|nicolas.restrepo@example.com|Wireless Mouse|2025-10-31|82000|30|Cucuta|PayPal|2025-11-16|Platinum
+TG-1034|Tomas Mora|tomas.mora@example.com|USB-C Hub|2025-09-29|71000|32|Manizales|Debit Card|2025-10-12|Gold
+TG-1035|Laura Nino|laura.nino@example.com|Webcam HD|2025-11-01|110000|40|Medellin|Credit Card|2025-12-12|Platinum
+TG-1036|Tomas Ramirez|tomas.ramirez@example.com|Bluetooth Speaker|2025-10-26|137000|58|Bucaramanga|Credit Card|2025-12-15|Platinum
+TG-1037|Alejandra Aguilar|alejandra.aguilar@example.com|Fast Charger 65W|2025-12-02|61000|28|Cali|Credit Card|2025-12-04|Silver
+TG-1038|Natalia Beltran|natalia.beltran2@example.com|Tablet 10 inch|2025-11-18|1053000|56|Manizales|PayPal|2025-12-14|Silver
+TG-1039|Juan Quintero|juan.quintero@example.com|"4K Monitor 27"""|2025-09-02|922000|64|Medellin|Cash|2025-12-13|Silver
+TG-1040|Miguel Ramirez|miguel.ramirez@example.com|Smartwatch Pro|2025-10-03|465000|36|Santa Marta|Debit Card|2025-10-30|Gold
+TG-1041|Daniela Quintero|daniela.quintero@example.com|Laptop Ultra 14|2025-09-08|3350000|40|Manizales|Cash|2025-12-11|Platinum
+TG-1042|Luisa Salazar|luisa.salazar@example.com|"4K Monitor 27"""|2025-09-20|1458000|50|Bogota|Bank Transfer|2025-11-26|Silver
+TG-1043|Diego Restrepo|diego.restrepo@example.com|"4K Monitor 27"""|2025-09-19|1081000|57|Medellin|Cash|2025-11-18|Bronze
+TG-1044|Isabella Salazar|isabella.salazar@example.com|External SSD 1TB|2025-11-01|426000|53|Bogota|Debit Card|2025-11-07|Silver
+TG-1045|Daniela Gomez|daniela.gomez@example.com|Mechanical Keyboard|2025-10-28|283000|19|Medellin|Bank Transfer|2025-12-02|Gold
+TG-1046|Diego Salazar|diego.salazar@example.com|Webcam HD|2025-09-26|244000|46|Santa Marta|Cash|2025-10-31|Platinum
+TG-1047|Paula Castro|paula.castro@example.com|Fast Charger 65W|2025-10-04|89000|30|Manizales|Debit Card|2025-12-14|Platinum
+TG-1048|Andres Aguilar|andres.aguilar@example.com|Bluetooth Speaker|2025-09-10|173000|33|Pereira|Credit Card|2025-12-04|Silver
+TG-1049|Ricardo Vargas|ricardo.vargas@example.com|Mechanical Keyboard|2025-12-01|190000|60|Bucaramanga|Debit Card|2025-12-11|Gold
+TG-1050|Antonia Duarte|antonia.duarte2@example.com|Bluetooth Speaker|2025-12-05|148000|43|Manizales|Debit Card|2025-12-06|Silver
+TG-1051|Santiago Cardenas|santiago.cardenas@example.com|External SSD 1TB|2025-10-14|386000|30|Bucaramanga|PayPal|2025-11-09|Bronze
+TG-1052|Esteban Mora|esteban.mora@example.com|Wireless Mouse|2025-11-10|89000|46|Bogota|Bank Transfer|2025-12-09|Gold
+TG-1053|Paula Cifuentes|paula.cifuentes@example.com|Noise Cancelling Headphones|2025-09-09|649000|32|Medellin|Credit Card|2025-09-23|Gold
+TG-1054|Daniela Gomez|daniela.gomez2@example.com|"4K Monitor 27"""|2025-12-06|1184000|45|Cartagena|Bank Transfer|2025-12-08|Silver
+TG-1055|Juan Salazar|juan.salazar@example.com|Webcam HD|2025-11-29|240000|23|Cartagena|Credit Card|2025-12-09|Silver
+TG-1056|Miguel Rios|miguel.rios@example.com|Noise Cancelling Headphones|2025-11-21|389000|34|Medellin|Cash|2025-11-23|Silver
+TG-1057|Valentina Pena|valentina.pena@example.com|Mechanical Keyboard|2025-09-02|269000|53|Pereira|PayPal|2025-10-15|Silver
+TG-1058|Julian Salazar|julian.salazar@example.com|Fast Charger 65W|2025-09-15|71000|34|Bogota|Debit Card|2025-10-05|Silver
+TG-1059|Emilio Vargas|emilio.vargas@example.com|Tablet 10 inch|2025-11-07|1220000|36|Manizales|Cash|2025-11-20|Silver
+TG-1060|Daniela Mora|daniela.mora@example.com|Wireless Mouse|2025-09-05|78000|19|Santa Marta|Cash|2025-09-06|Silver
+TG-1061|Paula Nino|paula.nino@example.com|Smartwatch Pro|2025-10-28|940000|60|Pereira|Bank Transfer|2025-11-03|Platinum
+TG-1062|Paula Vargas|paula.vargas@example.com|Fast Charger 65W|2025-09-30|69000|30|Cali|Bank Transfer|2025-11-12|Gold
+TG-1063|Julian Duarte|julian.duarte@example.com|Wireless Mouse|2025-11-20|54000|34|Pereira|Debit Card|2025-12-13|Bronze
+TG-1064|Valentina Aguilar|valentina.aguilar@example.com|External SSD 1TB|2025-10-07|456000|62|Cartagena|Credit Card|2025-11-07|Platinum
+TG-1065|Santiago Lopez|santiago.lopez@example.com|Noise Cancelling Headphones|2025-09-01|614000|41|Bucaramanga|Cash|2025-10-04|Gold
+TG-1066|Felipe Gomez|felipe.gomez@example.com|Noise Cancelling Headphones|2025-10-16|494000|18|Bucaramanga|Bank Transfer|2025-10-27|Bronze
