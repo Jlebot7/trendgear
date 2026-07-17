@@ -1,24 +1,12 @@
-/* =========================================================
-   TrendGear Dashboard — app.js
-   Fase III: Fetch a Firebase Realtime Database + render dinamico
-   ========================================================= */
-
-/* -----------------------------------------------------------
-   CONFIG
-   Reemplaza FIREBASE_URL por la URL de tu Firebase Realtime
-   Database (termina en ".json" para lectura REST publica), ej:
-   "https://trendgear-XXXXX-default-rtdb.firebaseio.com/customers.json"
-   Mientras no la configures, el dashboard usa automaticamente
-   el dataset local en data/trendgear_full_dataset.json
-   ----------------------------------------------------------- */
 const CONFIG = {
+
   FIREBASE_URL: "https://trendgear-5d283-default-rtdb.firebaseio.com/customers.json",
   LOCAL_FALLBACK_URL: "data/trendgear_full_dataset.json",
 };
 
 const state = {
-  all: [],       // dataset completo tal como llega
-  filtered: [],  // dataset tras aplicar filtros/busqueda
+  all: [],
+  filtered: [],
 };
 
 const money = new Intl.NumberFormat("es-CO", {
@@ -27,14 +15,11 @@ const money = new Intl.NumberFormat("es-CO", {
   maximumFractionDigits: 0,
 });
 
-/* -----------------------------------------------------------
-   1. FETCH DE DATOS (Fase III, paso 1)
-   ----------------------------------------------------------- */
 async function loadCustomers() {
   setConnStatus("loading", "Conectando…");
 
-  // Intenta primero contra Firebase real
   try {
+
     const isPlaceholder = CONFIG.FIREBASE_URL.includes("REEMPLAZA-CON-TU-PROYECTO");
     if (isPlaceholder) throw new Error("Firebase URL no configurada, usando datos locales.");
 
@@ -48,12 +33,10 @@ async function loadCustomers() {
     document.getElementById("footerStatus").textContent = "Fuente de datos: Firebase Realtime Database";
     return list;
   } catch (firebaseErr) {
-    // Protocolo de depuracion asistida: registra el error real en consola
-    // para que quede visible al copiarlo y pedir ayuda a la IA si hace falta.
     console.warn("[TrendGear] No se pudo leer Firebase, se usa el dataset local. Detalle:", firebaseErr.message);
   }
 
-  // Fallback: dataset local generado en la Fase I
+
   try {
     const res = await fetch(CONFIG.LOCAL_FALLBACK_URL);
     if (!res.ok) throw new Error(`No se pudo cargar el dataset local (status ${res.status})`);
@@ -71,7 +54,6 @@ async function loadCustomers() {
   }
 }
 
-// Acepta tanto {customers: {id: {...}}} (formato Firebase) como un arreglo plano
 function normalizeFirebasePayload(json) {
   const root = json && json.customers ? json.customers : json;
   if (Array.isArray(root)) return root.filter(Boolean);
@@ -88,9 +70,6 @@ function setConnStatus(kind, label) {
   document.getElementById("connLabel").textContent = label;
 }
 
-/* -----------------------------------------------------------
-   2. RENDER DE LA TABLA (Fase III, paso 2 — forEach + template literals)
-   ----------------------------------------------------------- */
 function renderTable(rows) {
   const tbody = document.getElementById("tableBody");
   const rowCount = document.getElementById("rowCount");
@@ -126,9 +105,6 @@ function renderTable(rows) {
   rowCount.textContent = `${rows.length} cliente${rows.length === 1 ? "" : "s"}`;
 }
 
-/* -----------------------------------------------------------
-   3. KPIs con animacion de conteo (elemento distintivo del hero)
-   ----------------------------------------------------------- */
 function renderKPIs(rows) {
   const totalRevenue = rows.reduce((sum, c) => sum + Number(c["Amount Spent ($)"]), 0);
   const totalCustomers = rows.length;
@@ -164,9 +140,6 @@ function animateValue(elId, formatFn, target, duration = 900) {
   requestAnimationFrame(tick);
 }
 
-/* -----------------------------------------------------------
-   4. MINI GRAFICOS SVG (distribucion membresia + histograma edad)
-   ----------------------------------------------------------- */
 const TIER_COLORS = {
   Bronze: "#c58f5d",
   Silver: "#b9c2cc",
@@ -224,9 +197,6 @@ function renderAgeHistogram(rows) {
     <svg class="chart-svg" viewBox="0 0 ${buckets.length * (barW + gap)} ${h}">${bars}</svg>`;
 }
 
-/* -----------------------------------------------------------
-   5. FILTROS Y BUSQUEDA
-   ----------------------------------------------------------- */
 function populateCityFilter(rows) {
   const select = document.getElementById("cityFilter");
   const cities = [...new Set(rows.map((c) => c.City))].sort();
@@ -279,9 +249,6 @@ function wireFilterEvents() {
   });
 }
 
-/* -----------------------------------------------------------
-   6. NAV RESPONSIVE (hamburguesa)
-   ----------------------------------------------------------- */
 function wireHamburger() {
   const btn = document.getElementById("hamburgerBtn");
   const nav = document.getElementById("mainNav");
@@ -297,9 +264,6 @@ function wireHamburger() {
   );
 }
 
-/* -----------------------------------------------------------
-   7. INIT
-   ----------------------------------------------------------- */
 function showSkeleton() {
   const tbody = document.getElementById("tableBody");
   tbody.innerHTML = Array.from({ length: 5 })
